@@ -7,7 +7,7 @@ Depending on which version you plan to use, include the corresponding `stars.js`
 ## Usage
 ### jQuery version
 Add the following HTML:
-```
+````html
 <div class="starsContainer">
 	<div class="star" id="star1">&#9733;</div>
 	<div class="star" id="star2">&#9733;</div>
@@ -20,7 +20,7 @@ The value is being written into an `input` element that is dynamically added to 
 
 ### AngularJS version
 The following code uses stars.js in order to store the selected value in the surrounding controller's `$scope` variable `test`:
-```
+````html
 <script type="text/javascript">
 	var app = angular.module("app", ["awStars"]);
 
