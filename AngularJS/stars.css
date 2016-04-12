@@ -1,0 +1,29 @@
+.starsContainer {
+	cursor:pointer;
+	display:block;
+}
+.starsContainer::before,
+.starsContainer::after {
+	content:" ";
+	display:table;
+}
+.starsContainer .star {
+	color:#dddddd;
+	cursor:pointer;
+	display:block;
+	float:left;
+	height:15px;
+	line-height:15px;
+	text-align:center;
+	transition:0.1s ease;
+	width:15px;
+}
+.starsContainer .star:hover {
+	color:#ecaf14;
+}
+.starsContainer .star.starActive {
+	color:#ecaf14;
+}
+.starsContainer .star.starActiveSelected {
+	color:#ecaf14;
+}
